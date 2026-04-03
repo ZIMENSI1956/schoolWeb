@@ -1,28 +1,35 @@
 <!DOCTYPE html>
- <html lang="ja">
-   <head>
-   <meta charset=""UTF-8>
-    <meta name="viewport" content="width=device-width,initial-scaie=1.0">
-  　<title>学校総合サイト</title>
-<link rel="stylesheet" href="style.css">    
-   　　　　<meta name="description" content="学校のテスト範囲や調べものは、これひとつで！">
-        </head>
-　　　<header>
-    <div id="menu-btn" id="menu-btn">三</div>
-    <nav id="menu">
-     <ul>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学校総合サイト</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="学校のテスト範囲や調べものは、これひとつで！">
+</head>
+
+<body>
+
+<header>
+  <div id="menu-btn">☰</div>
+
+  <nav id="menu">
+    <ul>
       <li><a href="index.html">検索</a></li>
       <li><a href="japanese.html">国語</a></li>
       <li><a href="math.html">数学</a></li>
-      <li><a href="English.html">英語</a></li>
-      <li<a href="science">理科</a></li>
-     </ul>
-    </nav>
-   </header>
-         <body>
-           <h1>検索ページ</h1>
-           <form method="get"　action="cgi-bin/example.cgi">
-           <input type="search" name="search" placeholder="調べたい単語や科目を入力"><input type="submit" name="submit" value="検索"></from>
-         </body>
-     </html>
-   
+      <li><a href="english.html">英語</a></li>
+      <li><a href="science.html">理科</a></li>
+    </ul>
+  </nav>
+</header>
+
+<h1>検索ページ</h1>
+
+<form method="get" action="cgi-bin/example.cgi">
+  <input type="search" name="search" placeholder="調べたい単語や科目を入力">
+  <input type="submit" value="検索">
+</form>
+
+</body>
+</html>
