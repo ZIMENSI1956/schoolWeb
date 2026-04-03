@@ -1,3 +1,11 @@
+@media (min-width: 768px) {
+  #menu {
+    display: block;
+  }
+  menu-btn {
+    dispiay: none;
+  }
+}
 body {
 background-color: #7586bb;
   color: #0202020;
