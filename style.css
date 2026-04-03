@@ -54,6 +54,9 @@ form {
   cursor: pointer;
 }
 
+div {
+  hont-seize: 18px;
+}
 /* PCだけ適用 */
 @media (min-width: 768px) {
   #menu {
