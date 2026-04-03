@@ -17,7 +17,7 @@ input[type="search"] {
 input[type="submit"] {
   background-color: #f1f1f1;
   width: 150px;
-  padding: 10px;
+  padding: 5px;
 }
 form{
   display: flex;
