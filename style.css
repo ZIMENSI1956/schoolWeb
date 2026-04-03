@@ -1,33 +1,18 @@
-@media (min-width: 768px) {
-  #menu {
-    display: none;
-    position: absolute;
-    top: 50px;
-    left:10px;
-    backguround: #333;
-    padding: 10px;
-    border-radius: 10px;
-  }
-  menu-btn {
-    dispiay: none;
-  }
- #menu a {
-   color: white;
-   display: biock;
-   margin: 5px 0:
-}
+/* 通常CSS（全端末） */
 body {
-background-color: #7586bb;
+  background-color: #7586bb;
   color: #202020;
   margin: 0;
-  padding: 0:
-  font-family: "noto sans JP", sans-srif;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
 }
- h1 {
+
+h1 {
   text-align: center;
-   margin-top: 110px;
-   color: #FD7E00;
- }
+  margin-top: 110px;
+  color: #FD7E00;
+}
+
 input[type="search"] {
   background-color: #f1f1f1;
   border-radius: 15px;
@@ -35,17 +20,48 @@ input[type="search"] {
   max-width: 400px;
   padding: 10px;
 }
+
 input[type="submit"] {
   background-color: #a8e400;
-  color: f1f1f1;
+  color: #f1f1f1;
   border-radius: 15px;
-  padding: 10px 10px;
+  padding: 10px;
 }
-form　{
+
+form {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
-div　{
-  font-size: 20px;
+
+#menu a {
+  color: white;
+  display: block;
+  margin: 5px 0;
+}
+
+#menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background: #333;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#menu-btn {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* PCだけ適用 */
+@media (min-width: 768px) {
+  #menu {
+    display: block;
+  }
+
+  #menu-btn {
+    display: none;
+  }
 }
