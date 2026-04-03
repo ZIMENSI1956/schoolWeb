@@ -5,12 +5,14 @@ background-color: #7586bb;
   padding: 0:
 }
  h1 {
-  justify-content: center;
+  text-align: center;
    margin-top: 110px;
    color: #FD7E00;
  }
 input {
   background-color: #f1f1f1;
+  width: 300px;
+  padding: 10px;
 }
 form{
   display: flex;
