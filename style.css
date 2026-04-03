@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
   #menu {
     display: none;
-    position: name;
+    position: absolute;
     top: 50px;
     left:10px;
     backguround: #333;
@@ -18,10 +18,10 @@
 }
 body {
 background-color: #7586bb;
-  color: #0202020;
+  color: #202020;
   margin: 0;
   padding: 0:
-  font-family: "notoo sans JP", sans-srif;
+  font-family: "noto sans JP", sans-srif;
 }
  h1 {
   text-align: center;
