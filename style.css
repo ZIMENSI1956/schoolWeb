@@ -40,7 +40,7 @@ form {
 }
 
 #menu {
-  display: none;
+  display: block;
   position: absolute;
   top: 50px;
   left: 10px;
