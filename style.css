@@ -11,15 +11,17 @@ background-color: #7586bb;
  }
 input[type="search"] {
   background-color: #f1f1f1;
-  width: 300px;
+  width: 80%;
+  max-width: 400px;
   padding: 10px;
 }
 input[type="submit"] {
   background-color: #f1f1f1;
+  border-radius: 15px;
   padding: 10px 10px;
 }
 form{
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 10px;
 }
