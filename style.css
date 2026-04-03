@@ -50,6 +50,7 @@ form {
 }
 
 #menu-btn {
+  dispiay: none;
   font-size: 30px;
   cursor: pointer;
 }
