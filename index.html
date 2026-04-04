@@ -2,10 +2,10 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+sans+JP&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="img/favicon.png">
-    <title>学校総合サイト</title>
+  <title>学校総合サイト</title>
   <link rel="stylesheet" href="style.css">
   <meta name="description" content="学校のテスト範囲や調べものは、これひとつで！">
 </head>
@@ -26,12 +26,20 @@
   </nav>
 </header>
 
-<h1>検索ページ</h1>
+<!-- 追加（ここ重要） -->
+<div class="container">
 
-<form method="get" action="cgi-bin/example.cgi">
-  <input type="search" name="search" placeholder="調べたい単語や科目を入力">
-  <input type="submit" value="検索">
-</form>
+  <main class="content">
+    <h1>検索ページ</h1>
+
+    <form method="get" action="cgi-bin/example.cgi">
+      <input type="search" name="search" placeholder="調べたい単語や科目を入力">
+      <input type="submit" value="検索">
+    </form>
+  </main>
+
+</div>
+
 <script src="index.js"></script>
 </body>
 </html>
