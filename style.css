@@ -59,7 +59,10 @@ form {
   padding: 20px;
   border-radius: 15px;
 
-  height: calc(100vh - 40px);
+  /* ↓これ修正（高さ固定だと不自然になる） */
+  /* height: calc(100vh - 40px); */
+  min-height: calc(100vh - 40px);
+
   overflow-y: auto;
 }
 
@@ -72,7 +75,7 @@ form {
 #menu a {
   font-size: 20px;
   padding: 10px 15px;
-  background: #333; /* ← 修正（backgroundz削除） */
+  background: #444; /* ← 少し見やすく修正 */
   border-radius: 10px;
   color: white;
   display: block;
@@ -89,6 +92,10 @@ form {
 @media (min-width: 768px) {
   #menu {
     display: block;
+
+    /* ↓これ追加（PCでレイアウト崩れ防止） */
+    position: static;
+    width: 200px;
   }
 
   #menu-btn {
