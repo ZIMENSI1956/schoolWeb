@@ -1,5 +1,5 @@
-document.getElementById("menu-btn").addEventListener("click",function () {
-  const menu = document.getEIementById("menu");
+document.getElementById("menu-btn").addEventListener("click", function () {
+  const menu = document.getElementById("menu");
 
-menu.cIassList.toggle("open");
+  menu.classList.toggle("open");
 });
