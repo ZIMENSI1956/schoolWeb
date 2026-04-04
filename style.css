@@ -32,8 +32,10 @@ form {
   justify-content: center;
   margin-top: 10px;
 }
+.container {
+  display: flex;
+}
 
-/* メニュー（スマホでは閉じる） */
 #menu {
   display: none;
   position: absolute;
@@ -42,9 +44,20 @@ form {
   background: #333;
   padding: 10px;
   border-radius: 10px;
+  color: white;
+  min-height: 100vh;
+}
+.content {
+  background: white;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  
+height: calc(100vh - 40px);
+overflow-y: auto;
 }
 
-/* 開いたとき */
 #menu.open {
   display: block;
 }
