@@ -50,6 +50,10 @@ form {
 }
 
 #menu a {
+  font-size: 20px;
+  padding: 10px 15px;
+  backgroundz: #333;
+  border-radius: 10px;
   color: white;
   display: block;
   margin: 5px 0;
@@ -57,6 +61,7 @@ form {
 
 #menu-btn {
   font-size: 30px;
+  display: none;
   cursor: pointer;
 }
 
