@@ -32,10 +32,13 @@ form {
   justify-content: center;
   margin-top: 10px;
 }
+
+/* レイアウト */
 .container {
   display: flex;
 }
 
+/* メニュー */
 #menu {
   display: none;
   position: absolute;
@@ -47,34 +50,38 @@ form {
   color: white;
   min-height: 100vh;
 }
+
+/* コンテンツ */
 .content {
   background: white;
   flex: 1;
   margin: 20px;
   padding: 20px;
   border-radius: 15px;
-  
-height: calc(100vh - 40px);
-overflow-y: auto;
+
+  height: calc(100vh - 40px);
+  overflow-y: auto;
 }
 
+/* メニュー開いたとき */
 #menu.open {
   display: block;
 }
 
+/* メニュー内リンク */
 #menu a {
   font-size: 20px;
   padding: 10px 15px;
-  backgroundz: #333;
+  background: #333; /* ← 修正（backgroundz削除） */
   border-radius: 10px;
   color: white;
   display: block;
   margin: 5px 0;
 }
 
+/* メニューボタン */
 #menu-btn {
   font-size: 30px;
-  display: none;
   cursor: pointer;
 }
 
