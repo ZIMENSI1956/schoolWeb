@@ -55,7 +55,9 @@ form {
   font-size: 30px;
   cursor: pointer;
 }
-
+#menu {
+  display: block;
+}
 
 @media (min-width: 768px) {
   #menu {
